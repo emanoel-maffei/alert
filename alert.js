@@ -2,4 +2,4 @@ function io() {
     alert('Erro encontrado, Reinicie a Página.')
 }
 
-setInterval(io, 5000);
+setInterval(io, Math.round(Math.random() * 59999) + 1);
